@@ -12,5 +12,5 @@ ActiveAdmin.register Beer do
   #   permitted
   # end
 
-  permit_params :name, :abv, :ibu, :rating
+  permit_params :name, :abv, :ibu, :rating, :brewery
 end
